@@ -9,14 +9,12 @@
        default-lazy-init="false">
 
     <!-- 提供方应用名称信息，这个相当于起一个名字，我们dubbo管理页面比较清晰是哪个应用暴露出来的 -->
-    <dubbo:application name="dubbo_provider"></dubbo:application>
-
-    <dubbo:protocol name="dubbo" port="28080"/>
+    <dubbo:application name="dubbo_consumer"></dubbo:application>
 
     <!-- 使用zookeeper注册中心暴露服务地址 -->
     <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
 
-    <!-- 要暴露的服务接口 -->
-    <dubbo:service interface="com.kchen.dubbo.demo.api.service.AccountService" ref = "accountService"/>
+    <!-- 要引用的服务 -->
+    <dubbo:reference interface="com.kchen.dubbo.demo.api.service.AccountService" id="accountService"/>
 
 </beans>

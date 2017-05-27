@@ -4,7 +4,7 @@ spring:
   mvc:
     static-path-pattern: /resources/**
   application:
-    name: rest-api-web-admin
+    name: dubbo-demo-provider
 
 mybatis:
   check-config-location: true

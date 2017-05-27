@@ -1,8 +1,5 @@
 package com.kchen.dubbo.demo.api.service.entity;
 
-/**
- * Created by kchen on 2017/5/26.
- */
 public class AccountException extends Exception {
 
     private static final long serialVersionUID = -1355200585155963732L;

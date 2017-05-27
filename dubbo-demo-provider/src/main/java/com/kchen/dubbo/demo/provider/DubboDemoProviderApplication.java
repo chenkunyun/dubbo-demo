@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebAdminApplication {
+public class DubboDemoProviderApplication {
     public static void main(String[] args) {
-        SpringApplication.run(WebAdminApplication.class);
+        SpringApplication.run(DubboDemoProviderApplication.class);
     }
 }

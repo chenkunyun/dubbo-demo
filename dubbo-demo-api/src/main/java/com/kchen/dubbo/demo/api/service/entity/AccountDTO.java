@@ -1,9 +1,10 @@
 package com.kchen.dubbo.demo.api.service.entity;
 
-/**
- * Created by kchen on 2017/5/24.
- */
-public class AccountDTO {
+import java.io.Serializable;
+
+public class AccountDTO implements Serializable {
+
+    private static final long serialVersionUID = -7192183752601696809L;
 
     private Long userId;
     private String userName;

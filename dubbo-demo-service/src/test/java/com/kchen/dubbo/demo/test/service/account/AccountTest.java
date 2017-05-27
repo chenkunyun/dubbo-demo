@@ -16,9 +16,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.security.MessageDigest;
 
-/**
- * Created by kchen on 2017/3/1.
- */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = Application.class)
 public class AccountTest {

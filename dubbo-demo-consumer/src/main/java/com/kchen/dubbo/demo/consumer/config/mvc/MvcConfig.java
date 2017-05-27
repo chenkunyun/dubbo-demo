@@ -1,4 +1,4 @@
-package com.kchen.dubbo.demo.provider.config.mvc;
+package com.kchen.dubbo.demo.consumer.config.mvc;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
 
 import java.util.ArrayList;
+
 
 @Configuration
 @ConditionalOnClass({FastJsonHttpMessageConverter4.class})

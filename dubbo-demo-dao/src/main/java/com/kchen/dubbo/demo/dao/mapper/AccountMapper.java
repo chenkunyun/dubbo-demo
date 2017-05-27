@@ -2,6 +2,7 @@ package com.kchen.dubbo.demo.dao.mapper;
 
 import com.kchen.dubbo.demo.dao.domain.AccountDO;
 import com.kchen.dubbo.demo.dao.domain.AccountDOExample;
+
 import java.util.List;
 
 public interface AccountMapper {
